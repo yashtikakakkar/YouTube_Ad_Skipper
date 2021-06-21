@@ -17,7 +17,17 @@ let gPage;
     await gPage.waitForSelector(".ytp-large-play-button.ytp-button");
     await gPage.click(".ytp-large-play-button.ytp-button");
 
-    // get total duration of the video
-    // keep checking for skip ad button for the whole duration at regular intervals (possible?)
-    // if button found, click it
+    await gPage.evaluate(async function() {
+
+        let interval = setInterval(function() {
+            let overlayAd = document.getElementsByClassName("ytp-ad-overlay-close-container")[0];
+            if (overlayAd != undefined)
+                overlayAd.click();
+
+            let skipBtn = document.getElementsByClassName("ytp-ad-skip-button")[0];
+            if (skipBtn != undefined)
+                skipBtn.click();
+        }, 2000);
+
+    })
 })();
