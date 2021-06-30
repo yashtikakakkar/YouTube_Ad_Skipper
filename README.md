@@ -5,7 +5,7 @@ Pretty simple but useful script :)
 
 Since this is an unpacked extension, follow the given steps to be able use it to your benefit as well!
 
-#### Steps to Use:
+#### How to Use:
 
 1. Clone this repository.
 2. Extract the zip folder just downloaded.
@@ -13,7 +13,7 @@ Since this is an unpacked extension, follow the given steps to be able use it to
 4. Make sure the Developer Mode (top right) is turned on.
 5. Click on "Load Unpacked" and select the downloaded repository folder.
 6. Make sure to select the folder which has the manifest.json file among the others.
-7. Switch the toggle on.
+7. Switch the toggle in the extension card on.
 8. And you're done! You're now ready to watch ad-free content on YouTube.
 
 Enjoy! 💜
