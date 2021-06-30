@@ -14,6 +14,6 @@ Since this is an unpacked extension, follow the given steps to be able use it to
 5. Click on "Load Unpacked" and select the downloaded repository folder.
 6. Make sure to select the folder which has the manifest.json file among the others.
 7. Switch the toggle on.
-8. And you're done! You're now ready to watch ad free youtube content.
+8. And you're done! You're now ready to watch ad-free content on YouTube.
 
 Enjoy! 💜
