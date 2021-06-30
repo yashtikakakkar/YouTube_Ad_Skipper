@@ -9,7 +9,7 @@ Since this is an unpacked extension, follow the given steps to be able use it to
 
 1. Clone this repository.
 2. Extract the zip folder just downloaded.
-3. Go to<a href="chrome://extensions/"> chrome://extensions/ </a>
+3. Go to chrome://extensions/
 4. Make sure the Developer Mode (top right) is turned on.
 5. Click on "Load Unpacked" and select the downloaded repository folder.
 6. Make sure to select the folder which has the manifest.json file among the others.
